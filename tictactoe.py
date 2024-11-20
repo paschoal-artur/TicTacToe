@@ -22,9 +22,9 @@ while next_move == 1:
     game.print_board()
 
     while game.done == "":
-        if player_symbol == "X":  # Jogador começa
+        if player_symbol == "X":  # Player starts
             game.check_player_move(player_symbol)
-        else:  # Computador começa
+        else:  # Computer starts
             game.make_move(computer_symbol)
 
         clear_screen()
